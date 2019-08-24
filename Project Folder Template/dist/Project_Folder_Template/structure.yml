@@ -1,0 +1,17 @@
+structure:
+  Archive: []
+  Main:
+    Rhino: []
+    Revit: []
+    Blender: []
+  Scripts:
+    GH: []
+    Python: []
+  Materials: []
+  2D Assets: []
+  3D Assets: []
+  Renders:
+    PSD: []
+    RAW: []
+    Final: []
+  Exports: []

@@ -1,0 +1,31 @@
+structure:
+  Research:
+    Sketches: []
+    Studies: []
+    References: []
+  Models:
+    Rhino: []
+    Revit: []
+    Blender: []
+    Scripts:
+      GH: []
+      Python: []
+  Assets:
+    Reference: []
+    Materials: [Copy Materials directly into this folder, do not link from library. Follow library structure]
+    2D: []
+    3D: []
+    From_Client: []
+  Renders:
+    PSD: []
+    RAW: []
+    FINALS: [For final flattened images only]
+  Fabrication:
+    Laser: []
+    3D_Print:
+      STL: []
+  Deliverables:
+    Pricing: []
+    Presentation: []
+    Fab_Drawings: []
+    Transmittals: []
