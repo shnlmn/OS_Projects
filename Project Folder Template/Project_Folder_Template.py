@@ -31,11 +31,7 @@ def create_dir(dir, h):
     for k, v in h.items():
         tempd = f"{dir}/{k}"
         try:
-            if k[:2].isdigit() and k[3:] in top_dirs_names:
-                x_dir = top_dirs[top_dirs_names.index(k[3:])]
-                os.rename(f"{dir}/{x_dir}", f"{dir}/{k}")
-            else:
-                os.mkdir(tempd)
+            os.mkdir(tempd)
         except FileExistsError:
             pass
         if len(v) > 0:
@@ -43,4 +39,4 @@ def create_dir(dir, h):
 
 
 new_h = num_dir(hierarchy)
-create_dir(new_h)
+create_dir(cwd, new_h)

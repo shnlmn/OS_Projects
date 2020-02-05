@@ -1,0 +1,17 @@
+# Energy Analysis Folder Structure
+structure:
+  Model:
+    Context: []
+    Building: []
+    Scripts:
+      GH: []
+      Dynamo: []
+      Python: []
+  Data:
+    Weather_Data: []
+    Results: []
+  Renders:
+    RAW: []
+    PSD: []
+    FINALS: []
+
